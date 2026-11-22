@@ -56,11 +56,13 @@ Starting in **1535**, the Central Mediterranean is politically fluid: Valletta i
 
 ## 5. EGM Spec Decomposition Roadmap
 
-To develop **Corso 1535** using a Spec-Driven / Elephant-Goldfish Model workflow, the codebase is partitioned into six bounded design documents under `docs/designs/`:
+To develop **Corso 1535** using a Spec-Driven / Elephant-Goldfish Model workflow, the codebase is partitioned into eight bounded design documents under `docs/designs/`:
 
-1. **`01_world_wind_navigation.md`:** Sea map coordinate system, wind vector field ($\vec{W}$), oar-vs-sail propulsion curves, and fleet pathfinding.
-2. **`02_naval_combat_ballistics.md`:** Firing arcs (bow-chaser cones vs. broadside cones), ammo damage matrix, crew-to-cannon staffing ratios, and auto-reaction fire rules.
-3. **`03_tactical_boarding_siege.md`:** Grapple triggers, reinforcement countdown timers, deck/village node graphs, flanking DPS multipliers, and surrender state machine.
-4. **`04_economy_trade_carati.md`:** Port production/consumption ticks, automated convoy routing, warehouse storage, *carati* investor shares, and Prize Court validation.
-5. **`05_settlements_politics.md`:** Two-tier settlement state (villages vs. fortified cities), civic building construction (e.g., fortifying Birgu/Sciberras), faction reputation, and espionage/smuggling.
-6. **`06_campaign_progression.md`:** Historical timeline events (`1535` Tunis expedition through `1565` Great Siege era), tech unlocks, and AI fleet director behavior.
+1. **[spec_01_world_wind_and_navigation.md](spec_01_world_wind_and_navigation.md):** Sea map coordinate system, wind vector field ($\vec{W}$), oar-vs-sail propulsion curves, and fleet pathfinding.
+2. **[spec_02_naval_combat_and_ballistics.md](spec_02_naval_combat_and_ballistics.md):** Firing arcs (bow-chaser cones vs. broadside cones), ammo damage matrix, crew-to-cannon staffing ratios, and auto-reaction fire rules.
+3. **[spec_03_tactical_boarding_and_siege.md](spec_03_tactical_boarding_and_siege.md):** Grapple triggers, reinforcement countdown timers, deck/village node graphs, flanking DPS multipliers, and surrender state machine.
+4. **[spec_04_economy_trade_and_carati.md](spec_04_economy_trade_and_carati.md):** Port production/consumption ticks, automated convoy routing, warehouse storage, *carati* investor shares, and Prize Court validation.
+5. **[spec_05_settlements_and_politics.md](spec_05_settlements_and_politics.md):** Two-tier settlement state (villages vs. fortified cities), civic building construction (e.g., fortifying Birgu/Sciberras), faction reputation, and espionage/smuggling.
+6. **[spec_06_campaign_progression_and_ai_director.md](spec_06_campaign_progression_and_ai_director.md):** Historical timeline events (`1535` Tunis expedition through `1565` Great Siege era), tech unlocks, and AI fleet director behavior.
+7. **[spec_07_data_schemas_and_balance_baseline.md](spec_07_data_schemas_and_balance_baseline.md):** Canonical data schemas, unit/coordinate conventions, baseline hull and commodity balance tables, and mandatory edge-case/deadlock resolutions.
+8. **[spec_08_ui_hud_and_ux_specification.md](spec_08_ui_hud_and_ux_specification.md):** Strategic and tactical HUD layout, map overlays, boarding/siege controls, and feedback/accessibility standards.

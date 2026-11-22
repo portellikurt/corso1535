@@ -34,7 +34,7 @@ Players can toggle four map overlays without leaving the main strategic view:
 
 ---
 
-## 4. Tactical Boarding & *Razzia* HUD (Spec 03 View)
+## 4. Tactical Boarding & *Razzia* HUD ([Spec 03](spec_03_tactical_boarding_and_siege.md) View)
 When grappling a ship or assaulting a settlement/fortress:
 * **Reinforcement Queue Strip (Top-Center):** Displays incoming friendly or enemy ships with live `T_arrive` countdowns and crew counts.
 * **Squad & Archetype Bar (Bottom):** Selectable groups (`All`, `Corsairs/Marines`, `Sailors`, `Crossbow/Arquebus`, `Officers`) with stance buttons (`Advance`, `Hold Chokepoint`, `Fire Pistols/Volley`, `Fallback / Retreat`).

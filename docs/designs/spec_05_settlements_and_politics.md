@@ -7,12 +7,12 @@ The Central Mediterranean map contains **32 distinct settlements** split into tw
 * *Examples:* Marsaxlokk, Gozo, Pantelleria, Lampedusa, Cefalù, Augusta, Hammamet, Sfax.
 * **Mechanics:** Low garrison (20–60 militia), no heavy coastal artillery.
 * **Player Interaction:**
-  * Vulnerable to rapid amphibious **Razzia Raids** (Spec 03) to loot stockpiled grain/salt, impress sailors, or demand a one-time tribute.
+  * Vulnerable to rapid amphibious **Razzia Raids** ([Spec 03](spec_03_tactical_boarding_and_siege.md)) to loot stockpiled grain/salt, impress sailors, or demand a one-time tribute.
   * Can be upgraded by an owning faction/player with a **Coastal Watchtower** (extends fog-of-war radar by $350\text{ m}$ and provides early warning against corsair raids).
 
 ### Tier 2: Fortified Port Cities & Citadels (12 Locations)
 * *Examples:* Birgu (Malta), Palermo, Messina, Syracuse, Naples, Cagliari, Tunis, Algiers, Tripoli.
-* **Mechanics:** Full dynamic markets (Spec 04), shipyards, *Tribunale* courts, civic guilds, and multi-bastion harbor defenses.
+* **Mechanics:** Full dynamic markets ([Spec 04](spec_04_economy_trade_and_carati.md)), shipyards, *Tribunale* courts, civic guilds, and multi-bastion harbor defenses.
 
 ---
 
@@ -39,4 +39,4 @@ Within any Tier 2 city, the player climbs five civic ranks by combining trade vo
 Capturing a Tier 2 Fortified Port City is an endgame multi-fleet operation:
 1. **Harbor Blockade:** Stationing warships outside the harbor mouth cuts sea trade (`0%` maritime imports/exports). After 14 days of blockade, local food stocks deplete, starving the garrison and lowering defender morale.
 2. **Coastal Battery Duel:** Attacking fleets must silence harbor stone bastions (which fire heated shot with high fire chance against wooden hulls) before landing assault troops.
-3. **Citadel Assault:** Resolves via a large-scale Spec 03 tactical battle across the harbor mole and citadel gates. Upon victory, the player chooses to **Pillage & Withdraw** (massive immediate gold/loot, destroys $40\%$ of city infrastructure) or **Annex & Govern** (claims the port for their faction or establishes an independent corsair republic).
+3. **Citadel Assault:** Resolves via a large-scale [Spec 03](spec_03_tactical_boarding_and_siege.md) tactical battle across the harbor mole and citadel gates. Upon victory, the player chooses to **Pillage & Withdraw** (massive immediate gold/loot, destroys $40\%$ of city infrastructure) or **Annex & Govern** (claims the port for their faction or establishes an independent corsair republic).

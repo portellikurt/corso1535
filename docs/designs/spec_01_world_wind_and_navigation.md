@@ -54,4 +54,4 @@ When controlling a multi-ship squadron (up to 6 ships per fleet), commands resol
 1. `MOVE_TO_POINT(x, y)`: Fleet holds `LINE_AHEAD` or `LINE_ABREAST` formation, throttling faster vessels to match the slowest hull unless `BREAK_FORMATION` is toggled.
 2. `INTERCEPT_TARGET(shipId)`: Computes lead-pursuit vector using target's current velocity $\vec{V}_{\text{target}}$ and own wind-optimal tacking angle if sailing directly into irons.
 3. `BROADSIDE_ORBIT(shipId, preferredRange)`: Steers parallel to target heading at optimal gun range, alternating port/starboard arcs.
-4. `GRAPPLE_APPROACH(shipId)`: Closes relative velocity below $3.0\text{ knots}$ within $15\text{ meters}$ to trigger Spec 03 boarding.
+4. `GRAPPLE_APPROACH(shipId)`: Closes relative velocity below $3.0\text{ knots}$ within $15\text{ meters}$ to trigger [Spec 03](spec_03_tactical_boarding_and_siege.md) boarding.
